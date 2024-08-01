@@ -12,7 +12,7 @@ export function Login() {
                     <Image src={LogoFood} alt="Logo food explorer" priority />
                     <h1 className="text-3xl font-bold">Food Explorer</h1>
                 </div>
-                <form className="flex flex-col gap-8">
+                <form className="flex flex-col gap-6">
                     <Input title="Email" type="email" placeholder="Exemplo: exemplo@exemplo.com.br" />
                     <Input title="Senha" type="password" placeholder="No mínimo 6 caracteres" />
                     <Button type="submit" variant='default' className="font-normal">Entrar</Button>
